@@ -1,0 +1,189 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+#d1{
+width:100%;
+height:100px;
+background-color: #00004d;
+font-weight:bold;
+color:white;
+}
+
+input[type=text]{
+position:absolute;
+width:60%;
+margin:10px 0px 0px 100px;
+border-radius:2px;
+border-right:2px solid black;
+padding:2px;
+}
+
+select{
+position:absolute;
+margin:10px 0px 0px 100px;
+border-radius:2px;
+z-index:2;
+padding:3px;
+background-color:#b8b894;
+}
+
+#d1 i{
+margin:10px 0px 0px 65%;
+position:absolute;
+padding:4px;
+z-index:2;
+background-color:#ffaa00;
+}
+
+#btn1{
+position:absolute;
+left:20px; 
+top:250px;
+height:50px;
+background-color:white;
+border-color:white;
+}
+
+#btn2{
+position:absolute;
+right:20px; 
+height:50px;
+top:250px;
+background-color:white;
+border-color:white;
+}
+
+#d4{
+width:100%;
+height:100px;
+background-color: #00004d;
+font-weight:bold;
+color:white;
+margin-top:160px;
+}
+
+table{
+border-collapse:collapse;
+margin:400px 10px;
+}
+
+table td{
+border-bottom:1px solid black;
+border-top:1px solid black;
+z-index:2;
+padding:15px 10px;
+background-color: #ffdd99;
+}
+
+table td:hover{
+border-bottom:1px solid black;
+border-top:1px solid black;
+z-index:2;
+padding:15px 10px;
+background-color: #ffaa00;
+}
+
+a{
+text-decoration:none;
+font-size:16px;}
+
+</style>
+</head>
+<body>
+<div id="d1">
+<form action="" method="POST">
+<input type="text"> 
+<select id="toselect" onchange="selection()">
+<option selected>All Categories</option>
+<option value="beauty">Beauty</option>
+<option>Books</option>
+<option>Car and Motorbike</option>
+<option>Clothing and Accessories</option>
+<option>Electronics</option>
+<option>Toys</option>
+<option>GiftCards</option>
+<option>Home and Kitchen</option>
+<option>Jewellery</option>
+<option>Luggage and Bags</option>
+<option>Shoes</option>
+<option>Watches</option>
+</select>
+<i class="fa fa-search"></i>
+
+<a href="login.php"><input type="button" name="btn" value="Log In" style="background-color:#ff3300; font-size:20px; float:right; border-radius:5px; margin-top:50px;"></a>
+<a href="logout.php"><input type="button" name="btn" value="Log Out" style="background-color:#ff3300; margin-right:10px; font-size:20px; float:right; border-radius:5px; margin-top:50px;"></a>
+<a href="shop.php"><input type="button" name="btn" value="Pay" style="background-color:#ff3300; margin-right:10px; font-size:20px; float:right; border-radius:5px; margin-top:50px;"></a>
+</form>
+</div>
+
+<img src="img/face1.jpg" style="margin-left:100px; margin-top:20px;">
+<img src="img/face2.jpg" style="margin-left:200px; margin-top:20px;">
+<img src="img/face3.jpg" style="margin-left:200px; margin-top:20px;">
+<a style="position:relative; top:20px; margin-left:-1200px;" href="face1.php">Kama Ayurveda Bringadi Intensive Hair Treatment, 100ml</a>
+<a style="position:relative; top:20px; margin-left:20px;" href="face2.php">Forest Essentials Kashmiri Saffron and Neem Delicate Facial Cleanser, 200ml</a>
+<a style="position:relative; top:20px; margin-left:80px;" href="face3.php">Kama Ayurveda Nalpamaradi Skin Brightening Treatment, 100ml</a>
+<hr style="position:relative; top:40px;">
+<img src="img/face4.jpg" style="margin-left:100px; margin-top:50px;">
+<img src="img/face5.jpg" style="margin-left:200px; margin-top:50px;">
+<img src="img/face6.jpg" style="margin-left:200px; margin-top:50px;">
+<a style="position:relative; top:20px; margin-left:-1240px;" href="face4.php">Kama Ayurveda Bringadi Intensive Hair Treatment, 100ml</a>
+<a style="position:relative; top:20px; margin-left:20px;" href="face5.php">Forest Essentials Kashmiri Saffron and Neem Delicate Facial Cleanser, 200ml</a>
+<a style="position:relative; top:20px; margin-left:80px;" href="face6.php">Kama Ayurveda Nalpamaradi Skin Brightening Treatment, 100ml</a>
+
+<h2 style="position:relative; top:100px; left:20px;">Shop Luxury Skincare Products</h2>
+
+<p style="position:relative; top:120px; left:20px;">Explore a high-end range of skin care products. 
+Browse a fantastic collection of body moisturizer cream, bb body cream, skin renewal masks, exfoliants, 
+anti-wrinkle creams and lots more from brands like Gentleman’s Tonic, Temple Spa, Dermalogica, Pangea Organics, The Camel Soap Factory and lots more. 
+The great thing about shopping at the online store is that you have the luxury of exploring products by brands, price, customer reviews or offers and 
+special discounts.</p>
+
+<p style="position:relative; top:120px; left:20px;">Log on to find the perfect product for your lm and eyes.
+Browse the wide variety of items to take care of different facial care needs, including overnight repair serum and antioxidant hydramist from Dermalogica, 
+anti-aging, replenishing and vita-mineral creams from REN, women’s facial mask to renew and rejuvenate your skin and a whole lot more! 
+In addition, there are a number of eye care products as well like the REN Lipovector Anti-wrinkle Eye Cream that significantly reduces wrinkles and crow’s 
+feet around the delicate areas of your eyes</p>
+
+<div id="d4" style="clear:both;">
+
+  <h2 style="color:white; margin-top:20px; position:absolute;">Connect with Us</h2>
+
+<span class="fa-stack fa-lg">
+
+  <i class="fa fa-circle-thin fa-stack-2x" style="margin-left:10px; margin-top:50px;"></i>
+  <i class="fa fa-twitter fa-stack-1x" style="margin-left:10px; margin-top:50px;"></i>
+  
+  <i class="fa fa-circle-thin fa-stack-2x" style="margin-left:60px; margin-top:50px;"></i>
+  <i class="fa fa-facebook fa-stack-1x" style="margin-left:60px; margin-top:50px;"></i>
+  
+  <i class="fa fa-circle-thin fa-stack-2x" style="margin-left:110px; margin-top:50px;"></i>
+  <i class="fa fa-google fa-stack-1x" style="margin-left:110px; margin-top:50px;"></i>
+  
+  <i class="fa fa-circle-thin fa-stack-2x" style="margin-left:160px; margin-top:50px;"></i>
+  <i class="fa fa-google-plus fa-stack-1x" style="margin-left:160px; margin-top:50px;"></i>
+  
+  <i class="fa fa-circle-thin fa-stack-2x" style="margin-left:210px; margin-top:50px;"></i>
+  <i class="fa fa-skype fa-stack-1x" style="margin-left:210px; margin-top:50px;"></i>
+      
+</span>
+
+<div style="float:right;">
+<h2 style="color:white; margin-top:20px;">Help And Support</h2>
+<span class="fa-stack fa-lg">
+  <i class="fa fa-circle-thin fa-stack-2x" style="margin-top:-15px;"></i>
+  <i class="fa fa-question-circle fa-stack-1x" style="margin-top:-15px;"></i>
+  </span>
+</div>
+</div>
+
+<script>
+function selection()
+{
+ var i=document.getElementById('toselect').value;
+ window.open(i+".html");
+}
+</script>
+</body>
+</html>

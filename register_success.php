@@ -1,0 +1,1 @@
+You have registered successfully<html><body><a href="home.html">Go to HomePage</a>"</body></html>

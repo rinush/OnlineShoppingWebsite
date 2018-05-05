@@ -1,0 +1,928 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+#d1{
+width:100%;
+height:100px;
+background-color: #00004d;
+font-weight:bold;
+color:white;
+}
+
+input[type=text]{
+position:absolute;
+width:60%;
+margin:10px 0px 0px 100px;
+border-radius:2px;
+border-right:2px solid black;
+padding:2px;
+}
+
+select{
+position:absolute;
+margin:10px 0px 0px 100px;
+border-radius:2px;
+z-index:2;
+padding:3px;
+background-color:#b8b894;
+}
+
+#d1 i{
+margin:10px 0px 0px 65%;
+position:absolute;
+padding:4px;
+z-index:2;
+background-color:#ffaa00;
+}
+
+#btn1{
+position:absolute;
+left:20px; 
+top:250px;
+height:50px;
+background-color:white;
+border-color:white;
+}
+
+#btn2{
+position:absolute;
+right:20px; 
+height:50px;
+top:250px;
+background-color:white;
+border-color:white;
+}
+
+#d4{
+width:100%;
+height:100px;
+background-color: #00004d;
+font-weight:bold;
+color:white;
+margin-top:950px;
+}
+
+table{
+border-collapse:collapse;
+margin:50px 10px;
+}
+
+table td{
+border-bottom:1px solid black;
+border-top:1px solid black;
+z-index:2;
+background-color: #ffdd99;
+}
+
+table td:hover{
+border-bottom:1px solid black;
+border-top:1px solid black;
+z-index:2;
+background-color: #ffaa00;
+}
+
+a{
+color:black;
+text-decoration:none;}
+
+</style>
+</head>
+<body>
+<div id="d1">
+<form action="" method="POST">
+<input type="text"> 
+<select id="toselect" onchange="selection()">
+<option selected>All Categories</option>
+<option>Beauty</option>
+<option>Books</option>
+<option>Car and Motorbike</option>
+<option>Clothing and Accessories</option>
+<option>Electronics</option>
+<option>Toys</option>
+<option>GiftCards</option>
+<option>Home and Kitchen</option>
+<option>Jewellery</option>
+<option>Luggage and Bags</option>
+<option>Shoes</option>
+<option>Watches</option>
+</select>
+<i class="fa fa-search"></i>
+
+<a href="login.php"><input type="button" name="btn" value="Log In" style="background-color:#ff3300; font-size:20px; float:right; border-radius:5px; margin-top:50px;"></a>
+<a href="logout.php"><input type="button" name="btn" value="Log Out" style="background-color:#ff3300; margin-right:10px; font-size:20px; float:right; border-radius:5px; margin-top:50px;"></a>
+<a href="shop.php"><input type="button" name="btn" value="Pay" style="background-color:#ff3300; margin-right:10px; font-size:20px; float:right; border-radius:5px; margin-top:50px;"></a>
+</form>
+</div>
+
+<script>
+function selection()
+{
+ var i=document.getElementById('toselect').value;
+ window.open(i+".html");
+}
+</script>
+
+<table width="450px" style="float:left;">
+
+<tr>
+
+<td rowspan="10" width="200px">
+<a href="cat1.php"><img src="img/cat1.jpg"></a>
+</td>
+
+<td>
+The Alchemist <span style="font-size:10px;">24 February 2015</span>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+by Paulo Coelho
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+Kindle Edition
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+₹24  <strike>204.26</strike>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+You Save:   180.26 (88%)
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+Hardcover
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+₹325  <strike>399</strike>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+You Save:Rs74 (18%)
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+More Buying Choices
+</td>
+
+</tr>
+
+<tr>
+
+
+<td>
+  310offer(19 offers)
+</td>
+
+</tr>
+
+</table>
+
+<table width="450px" style="float:left;">
+
+<tr>
+
+<td rowspan="10" width="200px">
+<a href="cat2.php"><img src="img/cat2.jpg"></a>
+</td>
+
+<td>
+The Monk Who Sold His Ferrari <span style="font-size:10px;">24 February 2015</span>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+by Paulo Coelho
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+Kindle Edition
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+₹24  <strike>204.26</strike>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+You Save:   180.26 (88%)
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+Hardcover
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+₹325  <strike>399</strike>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+You Save:Rs74 (18%)
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+More Buying Choices
+</td>
+
+</tr>
+
+<tr>
+
+
+<td>
+  310offer(19 offers)
+</td>
+
+</tr>
+
+</table>
+
+<table width="450px" style="float:left; height:300px;">
+
+<tr>
+
+<td rowspan="10" width="200px">
+<a href="cat9.php"><img src="img/cat9.jpg"></a>
+</td>
+
+<td>
+The Monk Who Sold His Ferrari <span style="font-size:10px;">24 February 2015</span>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+by Paulo Coelho
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+Kindle Edition
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+₹24  <strike>204.26</strike>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+You Save:   180.26 (88%)
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+Hardcover
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+₹325  <strike>399</strike>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+You Save:Rs74 (18%)
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+More Buying Choices
+</td>
+
+</tr>
+
+<tr>
+
+
+<td>
+  310offer(19 offers)
+</td>
+
+</tr>
+
+</table>
+
+<table width="450px" style="float:left;">
+
+<tr>
+
+<td rowspan="10" width="200px">
+<a href="cat3.php"><img src="img/cat3.jpg"></a>
+</td>
+
+<td>
+The Monk Who Sold His Ferrari <span style="font-size:10px;">24 February 2015</span>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+by Paulo Coelho
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+Kindle Edition
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+₹24  <strike>204.26</strike>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+You Save:   180.26 (88%)
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+Hardcover
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+₹325  <strike>399</strike>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+You Save:Rs74 (18%)
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+More Buying Choices
+</td>
+
+</tr>
+
+<tr>
+
+
+<td>
+  310offer(19 offers)
+</td>
+
+</tr>
+
+</table>
+
+<table width="450px" style="float:left; margin-left:10px;">
+
+<tr>
+
+<td rowspan="10" width="200px">
+<a href="cat4.php"><img src="img/cat4.jpg"></a>
+</td>
+
+<td>
+The Monk Who Sold His Ferrari <span style="font-size:10px;">24 February 2015</span>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+by Paulo Coelho
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+Kindle Edition
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+₹24  <strike>204.26</strike>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+You Save:   180.26 (88%)
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+Hardcover
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+₹325  <strike>399</strike>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+You Save:Rs74 (18%)
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+More Buying Choices
+</td>
+
+</tr>
+
+<tr>
+
+
+<td>
+  310offer(19 offers)
+</td>
+
+</tr>
+
+</table>
+
+<table width="450px" style="float:left;">
+
+<tr>
+
+<td rowspan="10" width="200px">
+<a href="cat5.php"><img src="img/cat5.jpg"></a>
+</td>
+
+<td>
+The Monk Who Sold His Ferrari <span style="font-size:10px;">24 February 2015</span>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+by Paulo Coelho
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+Kindle Edition
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+₹24  <strike>204.26</strike>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+You Save:   180.26 (88%)
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+Hardcover
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+₹325  <strike>399</strike>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+You Save:Rs74 (18%)
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+More Buying Choices
+</td>
+
+</tr>
+
+<tr>
+
+
+<td>
+  310offer(19 offers)
+</td>
+
+</tr>
+
+</table>
+
+<table width="450px" style="float:left;">
+
+<tr>
+
+<td rowspan="10" width="200px">
+<a href="cat6.php"><img src="img/cat6.jpg"></a>
+</td>
+
+<td>
+The Monk Who Sold His Ferrari <span style="font-size:10px;">24 February 2015</span>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+by Paulo Coelho
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+Kindle Edition
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+₹24  <strike>204.26</strike>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+You Save:   180.26 (88%)
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+Hardcover
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+₹325  <strike>399</strike>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+You Save:Rs74 (18%)
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+More Buying Choices
+</td>
+
+</tr>
+
+<tr>
+
+
+<td>
+  310offer(19 offers)
+</td>
+
+</tr>
+
+</table>
+
+<table width="450px" style="float:left;">
+
+<tr>
+
+<td rowspan="10" width="200px">
+<a href="cat7.php"><img src="img/cat7.jpg"></a>
+</td>
+
+<td>
+The Monk Who Sold His Ferrari <span style="font-size:10px;">24 February 2015</span>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+by Paulo Coelho
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+Kindle Edition
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+₹24  <strike>204.26</strike>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+You Save:   180.26 (88%)
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+Hardcover
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+₹325  <strike>399</strike>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+You Save:Rs74 (18%)
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+More Buying Choices
+</td>
+
+</tr>
+
+<tr>
+
+
+<td>
+  310offer(19 offers)
+</td>
+
+</tr>
+
+</table>
+
+<table width="450px" style="float:left;">
+
+<tr>
+
+<td rowspan="10" width="200px">
+<a href="cat8.php"><img src="img/cat8.jpg"></a>
+</td>
+
+<td>
+The Monk Who Sold His Ferrari <span style="font-size:10px;">24 February 2015</span>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+by Paulo Coelho
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+Kindle Edition
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+₹24  <strike>204.26</strike>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+You Save:   180.26 (88%)
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+Hardcover
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+₹325  <strike>399</strike>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+You Save:Rs74 (18%)
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+More Buying Choices
+</td>
+
+</tr>
+
+<tr>
+
+
+<td>
+  310offer(19 offers)
+</td>
+
+</tr>
+
+</table>
+</body>
+</html>

@@ -1,0 +1,232 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+#d1{
+width:100%;
+height:100px;
+background-color: #00004d;
+font-weight:bold;
+color:white;
+}
+
+input[type=text]{
+position:absolute;
+width:60%;
+margin:10px 0px 0px 100px;
+border-radius:2px;
+border-right:2px solid black;
+padding:2px;
+}
+
+select{
+position:absolute;
+margin:10px 0px 0px 100px;
+border-radius:2px;
+z-index:2;
+padding:3px;
+background-color:#b8b894;
+}
+
+#d1 i{
+margin:10px 0px 0px 65%;
+position:absolute;
+padding:4px;
+z-index:2;
+background-color:#ffaa00;
+}
+
+#btn1{
+position:absolute;
+left:20px; 
+top:250px;
+height:50px;
+background-color:white;
+border-color:white;
+}
+
+#btn2{
+position:absolute;
+right:20px; 
+height:50px;
+top:250px;
+background-color:white;
+border-color:white;
+}
+
+#d4{
+width:100%;
+height:100px;
+background-color: #00004d;
+font-weight:bold;
+color:white;
+margin-top:950px;
+}
+
+table{
+border-collapse:collapse;
+margin:600px 10px;
+}
+
+table td{
+border-bottom:1px solid black;
+border-top:1px solid black;
+z-index:2;
+padding:15px 10px;
+background-color: #ffdd99;
+}
+
+table td:hover{
+border-bottom:1px solid black;
+border-top:1px solid black;
+z-index:2;
+padding:15px 10px;
+background-color: #ffaa00;
+}
+
+a{
+color:black;
+text-decoration:none;}
+
+</style>
+</head>
+<body>
+<div id="d1">
+<form action="" method="POST">
+<input type="text"> 
+<select id="toselect" onchange="selection()">
+<option selected>All Categories</option>
+<option>Beauty</option>
+<option>Books</option>
+<option>Car and Motorbike</option>
+<option>Clothing and Accessories</option>
+<option>Electronics</option>
+<option>Toys</option>
+<option>GiftCards</option>
+<option>Home and Kitchen</option>
+<option>Jewellery</option>
+<option>Luggage and Bags</option>
+<option>Shoes</option>
+<option>Watches</option>
+</select>
+<i class="fa fa-search"></i>
+
+<a href="home.html"><input type="button" name="btn" value="Home" style="background-color:#ff3300; font-size:20px; float:right; border-radius:5px; margin-top:50px;"></a>
+</form>
+</div>
+
+<script>
+function selection()
+{
+ var i=document.getElementById('toselect').value;
+ window.open(i+".html");
+}
+</script>
+
+<div>
+<img src="img/books1.jpg" style="position:absolute; float:left; margin-top:50px; margin-left:10px;">
+<img src="img/books2.jpg" style="position:absolute; float:left; margin-top:50px; margin-left:580px;">
+</div>
+<table>
+
+<tr>
+<td>
+<a href="laf.html">Literature & Fiction</a> <span style="margin-left:75px; font-size:30px;">&#8250</span>
+</td>
+</tr>
+
+<tr>
+<td>
+<a href="romnc.html">Romance</a> <span style="margin-left:140px; font-size:30px;">&#8250</span>
+</td>
+</tr>
+
+<tr>
+<td>
+<a href="cat.html">Crime & Thriller</a> <span style="margin-left:90px; font-size:30px;">&#8250</span>
+</td>
+</tr>
+
+<tr>
+<td>
+<a href="cya.html">Children & Young Adult</a> <span style="margin-left:40px; font-size:30px;">&#8250</span>
+</td>
+</tr>
+
+<tr>
+<td>
+<a href="scif.html">Sci-fi & Fantasy</a> <span style="margin-left:95px; font-size:30px;">&#8250</span>
+</td>
+</tr>
+
+</table>
+
+<table style="margin:-920px 580px;">
+
+<tr>
+<td>
+<a href="bae.html">Business & Economics</a> <span style="margin-left:95px; font-size:30px;">&#8250</span>
+</td>
+</tr>
+
+<tr>
+<td>
+<a href="bam.html">Biographies & Memoirs</a> <span style="margin-left:90px; font-size:30px;">&#8250</span>
+</td>
+</tr>
+
+<tr>
+<td>
+<a href="iw.html">Indian Writing</a> <span style="margin-left:150px; font-size:30px;">&#8250</span>
+</td>
+</tr>
+
+<tr>
+<td>
+<a href="saep.html">Study Aids & Exam Preparation</a> <span style="margin-left:35px; font-size:30px;">&#8250</span>
+</td>
+</tr>
+
+<tr>
+<td>
+<a href="tb.html">Textbooks</a> <span style="margin-left:175px; font-size:30px;">&#8250</span>
+</td>
+</tr>
+
+</table>
+
+<div id="d4" style="clear:both;">
+
+  <h2 style="color:white; margin-top:20px; position:absolute;">Connect with Us</h2>
+
+<span class="fa-stack fa-lg">
+
+  <i class="fa fa-circle-thin fa-stack-2x" style="margin-left:10px; margin-top:50px;"></i>
+  <i class="fa fa-twitter fa-stack-1x" style="margin-left:10px; margin-top:50px;"></i>
+  
+  <i class="fa fa-circle-thin fa-stack-2x" style="margin-left:60px; margin-top:50px;"></i>
+  <i class="fa fa-facebook fa-stack-1x" style="margin-left:60px; margin-top:50px;"></i>
+  
+  <i class="fa fa-circle-thin fa-stack-2x" style="margin-left:110px; margin-top:50px;"></i>
+  <i class="fa fa-google fa-stack-1x" style="margin-left:110px; margin-top:50px;"></i>
+  
+  <i class="fa fa-circle-thin fa-stack-2x" style="margin-left:160px; margin-top:50px;"></i>
+  <i class="fa fa-google-plus fa-stack-1x" style="margin-left:160px; margin-top:50px;"></i>
+  
+  <i class="fa fa-circle-thin fa-stack-2x" style="margin-left:210px; margin-top:50px;"></i>
+  <i class="fa fa-skype fa-stack-1x" style="margin-left:210px; margin-top:50px;"></i>
+      
+</span>
+
+<div style="float:right;">
+<h2 style="color:white; margin-top:20px;">Help And Support</h2>
+<span class="fa-stack fa-lg">
+  <i class="fa fa-circle-thin fa-stack-2x" style="margin-top:-15px;"></i>
+  <i class="fa fa-question-circle fa-stack-1x" style="margin-top:-15px;"></i>
+  </span>
+</div>
+</div>
+
+</body>
+</html>
